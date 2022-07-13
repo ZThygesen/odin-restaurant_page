@@ -10,16 +10,16 @@ export default function loadMenu() {
     items.classList.add('items');
 
     const dishes = [
-        {name: 'Spaghetti', image: '../dist/images/dishes/spaghetti.jpg', price: '$8.99'},
-        {name: 'Chicken Alfredo', image: '../dist/images/dishes/chicken_alfredo.jpg', price: '$9.99'},
-        {name: 'Lasagna', image:'../dist/images/dishes/lasagna.jpg', price: '$9.99'},
-        {name: 'Pizza', image:'../dist/images/dishes/pizza.jpg', price: '$12.99'},
-        {name: 'Chicken Parmesan', image:'../dist/images/dishes/chicken_parmesan.jpg', price: '$9.99'},
-        {name: 'Tortellini', image:'../dist/images/dishes/tortellini.jpg', price: '$8.99'},
-        {name: 'Calamari', image:'../dist/images/dishes/calamari.jpg', price: '$7.99'},
-        {name: 'Garlic Bread', image:'../dist/images/dishes/garlic_bread.jpg', price: '$4.99'},
-        {name: 'Salad', image:'../dist/images/dishes/salad.jpg', price: '$2.99'},
-        {name: 'Cannolis', image:'../dist/images/dishes/cannolis.jpg', price: '$3.99'},
+        {name: 'Spaghetti', image: './images/dishes/spaghetti.jpg', price: '$8.99'},
+        {name: 'Chicken Alfredo', image: './images/dishes/chicken_alfredo.jpg', price: '$9.99'},
+        {name: 'Lasagna', image:'./images/dishes/lasagna.jpg', price: '$9.99'},
+        {name: 'Pizza', image:'./images/dishes/pizza.jpg', price: '$12.99'},
+        {name: 'Chicken Parmesan', image:'./images/dishes/chicken_parmesan.jpg', price: '$9.99'},
+        {name: 'Tortellini', image:'./images/dishes/tortellini.jpg', price: '$8.99'},
+        {name: 'Calamari', image:'./images/dishes/calamari.jpg', price: '$7.99'},
+        {name: 'Garlic Bread', image:'./images/dishes/garlic_bread.jpg', price: '$4.99'},
+        {name: 'Salad', image:'./images/dishes/salad.jpg', price: '$2.99'},
+        {name: 'Cannolis', image:'./images/dishes/cannolis.jpg', price: '$3.99'},
     ]
 
     dishes.forEach(dish => {

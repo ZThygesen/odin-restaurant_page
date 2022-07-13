@@ -44,7 +44,7 @@ export default function contact() {
         {day: 'Thursday', hours: '11a - 9p'},
         {day: 'Friday', hours: '11a - 10p'},
         {day: 'Saturday', hours: '11a - 10p'},
-        {day: 'Sunday', hours: '12a - 8p'}
+        {day: 'Sunday', hours: '12p - 8p'}
     ];
 
     hours.forEach(d => {

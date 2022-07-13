@@ -7,7 +7,7 @@ export default function loadHome() {
     title.textContent = 'Olive Gluten';
 
     const image = document.createElement('img');
-    image.src = '../dist/images/restaurant.jpg';
+    image.src = './images/restaurant.jpg';
     image.alt = 'Restaurant';
 
     const headline = document.createElement('p');
